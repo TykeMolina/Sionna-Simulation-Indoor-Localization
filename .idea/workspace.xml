@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_Avance.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_000.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_001.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_002.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_003.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_004.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_005.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_006.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_007.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_008.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_009.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_010.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_011.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_012.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_013.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_014.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_015.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_016.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_017.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_018.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_019.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_020.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_021.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_022.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_023.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_024.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_025.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_026.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_027.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_028.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_029.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_030.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_031.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_032.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_033.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_034.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_035.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_036.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_037.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_038.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_039.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_040.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_041.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_042.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_043.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_044.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_045.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Circle_046.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_001.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_002.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_003.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_005-itu_glass.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_005-itu_metal.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_006.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_007.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_008.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_009.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_010.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_011.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_012.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_013.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_019.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_022.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_023.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_026.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_027.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_030.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_031.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_034.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_035.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/meshes/Cube_036.ply" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scene/room.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="3Dkb2Ju2oSAfZyVjW9A8I5VZWEd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/danmo/PycharmProjects/Proyecto_8avo"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="" />
+      <created>1778828806374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778828806374</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-# Avances hasta el momento
+# Avance 1
 
 Descargué y adapté un modelo 3D de una habitación en Blender, esta habitación es 
 de 4 paredes, 1 piso, 1 techo y 1 un pequeño espacio recubierto por paredes de 

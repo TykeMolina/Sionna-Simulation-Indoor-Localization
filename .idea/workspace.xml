@@ -4,93 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Office_MTY_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README_Avance_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/final_scene_windows.blend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_Avance.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_Avance_1.5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_000.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_001.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_002.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_003.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_004.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_005.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_006.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_007.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_008.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_009.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_010.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_011.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_012.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_013.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_014.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_015.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_016.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_017.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_018.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_019.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_020.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_021.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_022.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_023.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_024.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_025.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_026.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_027.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_028.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_029.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_030.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_031.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_032.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_033.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_034.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_035.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_036.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_037.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_038.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_039.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_040.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_041.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_042.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_043.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_044.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_045.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Circle_046.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_001.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_002.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_003.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_005-itu_glass.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_005-itu_metal.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_006.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_007.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_008.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_009.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_010.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_011.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_012.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_013.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_019.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_022.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_023.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_026.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_027.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_030.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_031.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_034.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_035.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/meshes/Cube_036.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/room.xml" beforeDir="false" />
+    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="Avances 1.5">
+      <change beforePath="$PROJECT_DIR$/README_Avance.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_Avance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_Avance_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danmo/PycharmProjects/Proyecto_8avo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/danmo/PycharmProjects/Proyecto_8avo",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo" />
@@ -148,6 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1778828806374</updated>
     </task>
+    <task id="LOCAL-00001" summary="Avances 1.5">
+      <option name="closed" value="true" />
+      <created>1779089383277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779089383277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Avances 1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avances 1.5" />
   </component>
 </project>

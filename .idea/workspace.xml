@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="Avances 1.5">
-      <change afterPath="$PROJECT_DIR$/AntennaMIMO.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AntennaMIMO.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Antenna_Configuration.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avance1.5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Beamforming_2D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Beamforming_3D.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simulator_ULA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests_main.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="Avances 2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,11 +92,36 @@
       <option name="project" value="LOCAL" />
       <updated>1779089925648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Avances 1.5">
+      <option name="closed" value="true" />
+      <created>1779697732363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779697732363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Avances 2.0">
+      <option name="closed" value="true" />
+      <created>1779697771204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779697771204</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Avances 2.0">
+      <option name="closed" value="true" />
+      <created>1779697863851</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779697863851</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Avances 1.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avances 1.5" />
+    <MESSAGE value="Avances 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avances 2.0" />
   </component>
 </project>

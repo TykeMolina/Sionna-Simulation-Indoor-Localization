@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="Avances 1.5">
-      <change beforePath="$PROJECT_DIR$/README_Avance.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_Avance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README_Avance_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AntennaMIMO.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AntennaMIMO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Antenna_Configuration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Avance1.5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beamforming_2D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Beamforming_3D.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simulator_ULA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests_main.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -34,18 +49,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Batch.INSTALL_NUMBA.executor": "Run",
+    "Batch.RUN_GPU_3D_PLOT.executor": "Run",
+    "Batch.run_gpu_python.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.AntennaMIMO.executor": "Run",
+    "Python.Beamforming.executor": "Run",
+    "Python.Beamforming_2D.executor": "Run",
+    "Python.Beamforming_3D.executor": "Run",
+    "Python.Bewrqwr.executor": "Run",
+    "Python.Simulator_ULA.executor": "Run",
+    "Python.Test_GPU.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.gpu_3d_plot_numba_optimized.executor": "Run",
+    "Python.gpu_3d_plot_windows_fix.executor": "Run",
+    "Python.try.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/danmo/PycharmProjects/Proyecto_8avo",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Users/danmo/PycharmProjects/Proyecto_8avo/files3",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo\files3" />
       <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo" />
     </key>
   </component>
@@ -72,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779089383277</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Avances 1.5">
+      <option name="closed" value="true" />
+      <created>1779089925648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779089925648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

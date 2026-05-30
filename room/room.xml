@@ -11,7 +11,7 @@
 	<integrator type="path" id="elm__0" name="elm__0">
 		<integer name="max_depth" value="12"/>
 	</integrator>
-	<sensor type="perspective" id="elm__78" name="elm__78">
+	<sensor type="perspective" id="MainCamera" name="MainCamera">
 		<string name="fov_axis" value="x"/>
 		<float name="fov" value="39.597755"/>
 		<float name="principal_point_offset_x" value="0.000000"/>
@@ -20,9 +20,9 @@
 		<float name="far_clip" value="1000.000000"/>
 		<transform name="to_world">
 			<rotate x="1" angle="147.9999950115563"/>
-			<rotate y="1" angle="4.247835248593889e-06"/>
-			<rotate z="1" angle="179.999991348578"/>
-			<translate value="0.009999 -13.200000 22.960001"/>
+			<rotate y="1" angle="3.1407479786255673e-06"/>
+			<rotate z="1" angle="-90.0000161648565"/>
+			<translate value="13.200000 0.009999 22.960001"/>
 		</transform>
 		<sampler type="independent" name="sampler">
 			<integer name="sample_count" value="$spp"/>
@@ -60,14 +60,24 @@
 			<rgb value="0.608000 0.608000 0.608000" name="reflectance"/>
 		</bsdf>
 	</bsdf>
-	<bsdf type="twosided" id="mat-itu_glass" name="mat-itu_glass">
-		<bsdf type="diffuse" name="bsdf">
-			<rgb value="0.132778 0.441564 0.728781" name="reflectance"/>
-		</bsdf>
-	</bsdf>
 	<bsdf type="twosided" id="mat-itu_wood" name="mat-itu_wood">
 		<bsdf type="principled" name="bsdf">
 			<rgb value="0.258415 0.063106 0.015997" name="base_color"/>
+			<rgb value="1.000000 1.000000 1.000000" name="spec_tint"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.250000"/>
+			<float name="sheen" value="0.000000"/>
+			<rgb value="1.000000 1.000000 1.000000" name="sheen_tint"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.000900"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+	<bsdf type="twosided" id="mat-itu_plasterboard" name="mat-itu_plasterboard">
+		<bsdf type="principled" name="bsdf">
+			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
 			<rgb value="1.000000 1.000000 1.000000" name="spec_tint"/>
 			<float name="spec_trans" value="0.000000"/>
 			<float name="metallic" value="0.000000"/>
@@ -86,319 +96,314 @@
 
 <!-- Shapes -->
 
-	<shape type="ply" id="elm__2" name="elm__2">
+	<shape type="ply" id="mesh-Cube_003" name="mesh-Cube_003">
 		<string name="filename" value="meshes/Cube_003.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__3" name="elm__3">
+	<shape type="ply" id="mesh-Cube_002" name="mesh-Cube_002">
 		<string name="filename" value="meshes/Cube_002.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__4" name="elm__4">
+	<shape type="ply" id="mesh-Cube_001" name="mesh-Cube_001">
 		<string name="filename" value="meshes/Cube_001.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_concrete" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__6" name="elm__6">
+	<shape type="ply" id="mesh-Cube" name="mesh-Cube">
 		<string name="filename" value="meshes/Cube.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_marble" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__8" name="elm__8">
+	<shape type="ply" id="mesh-Circle_045" name="mesh-Circle_045">
 		<string name="filename" value="meshes/Circle_045.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__9" name="elm__9">
+	<shape type="ply" id="mesh-Circle_044" name="mesh-Circle_044">
 		<string name="filename" value="meshes/Circle_044.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__10" name="elm__10">
+	<shape type="ply" id="mesh-Circle_043" name="mesh-Circle_043">
 		<string name="filename" value="meshes/Circle_043.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__11" name="elm__11">
+	<shape type="ply" id="mesh-Circle_042" name="mesh-Circle_042">
 		<string name="filename" value="meshes/Circle_042.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__12" name="elm__12">
+	<shape type="ply" id="mesh-Circle_041" name="mesh-Circle_041">
 		<string name="filename" value="meshes/Circle_041.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__13" name="elm__13">
+	<shape type="ply" id="mesh-Circle_040" name="mesh-Circle_040">
 		<string name="filename" value="meshes/Circle_040.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__14" name="elm__14">
+	<shape type="ply" id="mesh-Circle_039" name="mesh-Circle_039">
 		<string name="filename" value="meshes/Circle_039.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__15" name="elm__15">
+	<shape type="ply" id="mesh-Circle_038" name="mesh-Circle_038">
 		<string name="filename" value="meshes/Circle_038.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__16" name="elm__16">
+	<shape type="ply" id="mesh-Circle_037" name="mesh-Circle_037">
 		<string name="filename" value="meshes/Circle_037.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__17" name="elm__17">
+	<shape type="ply" id="mesh-Circle_036" name="mesh-Circle_036">
 		<string name="filename" value="meshes/Circle_036.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__18" name="elm__18">
+	<shape type="ply" id="mesh-Circle_035" name="mesh-Circle_035">
 		<string name="filename" value="meshes/Circle_035.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__19" name="elm__19">
+	<shape type="ply" id="mesh-Circle_034" name="mesh-Circle_034">
 		<string name="filename" value="meshes/Circle_034.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__20" name="elm__20">
+	<shape type="ply" id="mesh-Circle_033" name="mesh-Circle_033">
 		<string name="filename" value="meshes/Circle_033.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__21" name="elm__21">
+	<shape type="ply" id="mesh-Circle_032" name="mesh-Circle_032">
 		<string name="filename" value="meshes/Circle_032.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__22" name="elm__22">
+	<shape type="ply" id="mesh-Circle_031" name="mesh-Circle_031">
 		<string name="filename" value="meshes/Circle_031.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__23" name="elm__23">
+	<shape type="ply" id="mesh-Circle_030" name="mesh-Circle_030">
 		<string name="filename" value="meshes/Circle_030.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__24" name="elm__24">
+	<shape type="ply" id="mesh-Circle_029" name="mesh-Circle_029">
 		<string name="filename" value="meshes/Circle_029.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__25" name="elm__25">
+	<shape type="ply" id="mesh-Circle_028" name="mesh-Circle_028">
 		<string name="filename" value="meshes/Circle_028.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__26" name="elm__26">
+	<shape type="ply" id="mesh-Circle_027" name="mesh-Circle_027">
 		<string name="filename" value="meshes/Circle_027.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__27" name="elm__27">
+	<shape type="ply" id="mesh-Circle_026" name="mesh-Circle_026">
 		<string name="filename" value="meshes/Circle_026.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__28" name="elm__28">
+	<shape type="ply" id="mesh-Circle_025" name="mesh-Circle_025">
 		<string name="filename" value="meshes/Circle_025.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__29" name="elm__29">
+	<shape type="ply" id="mesh-Circle_024" name="mesh-Circle_024">
 		<string name="filename" value="meshes/Circle_024.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__30" name="elm__30">
+	<shape type="ply" id="mesh-Circle_023" name="mesh-Circle_023">
 		<string name="filename" value="meshes/Circle_023.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__31" name="elm__31">
+	<shape type="ply" id="mesh-Circle_022" name="mesh-Circle_022">
 		<string name="filename" value="meshes/Circle_022.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__32" name="elm__32">
+	<shape type="ply" id="mesh-Circle_021" name="mesh-Circle_021">
 		<string name="filename" value="meshes/Circle_021.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__33" name="elm__33">
+	<shape type="ply" id="mesh-Circle_020" name="mesh-Circle_020">
 		<string name="filename" value="meshes/Circle_020.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__34" name="elm__34">
+	<shape type="ply" id="mesh-Circle_017" name="mesh-Circle_017">
 		<string name="filename" value="meshes/Circle_017.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__35" name="elm__35">
+	<shape type="ply" id="mesh-Circle_016" name="mesh-Circle_016">
 		<string name="filename" value="meshes/Circle_016.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__36" name="elm__36">
+	<shape type="ply" id="mesh-Circle_015" name="mesh-Circle_015">
 		<string name="filename" value="meshes/Circle_015.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__37" name="elm__37">
+	<shape type="ply" id="mesh-Circle_014" name="mesh-Circle_014">
 		<string name="filename" value="meshes/Circle_014.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__38" name="elm__38">
+	<shape type="ply" id="mesh-Circle_013" name="mesh-Circle_013">
 		<string name="filename" value="meshes/Circle_013.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__39" name="elm__39">
+	<shape type="ply" id="mesh-Circle_012" name="mesh-Circle_012">
 		<string name="filename" value="meshes/Circle_012.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__40" name="elm__40">
+	<shape type="ply" id="mesh-Circle_011" name="mesh-Circle_011">
 		<string name="filename" value="meshes/Circle_011.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__41" name="elm__41">
+	<shape type="ply" id="mesh-Circle_010" name="mesh-Circle_010">
 		<string name="filename" value="meshes/Circle_010.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__42" name="elm__42">
+	<shape type="ply" id="mesh-Circle_009" name="mesh-Circle_009">
 		<string name="filename" value="meshes/Circle_009.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__43" name="elm__43">
+	<shape type="ply" id="mesh-Circle_008" name="mesh-Circle_008">
 		<string name="filename" value="meshes/Circle_008.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__44" name="elm__44">
+	<shape type="ply" id="mesh-Circle_007" name="mesh-Circle_007">
 		<string name="filename" value="meshes/Circle_007.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__45" name="elm__45">
+	<shape type="ply" id="mesh-Circle_006" name="mesh-Circle_006">
 		<string name="filename" value="meshes/Circle_006.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__46" name="elm__46">
+	<shape type="ply" id="mesh-Circle_005" name="mesh-Circle_005">
 		<string name="filename" value="meshes/Circle_005.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__47" name="elm__47">
+	<shape type="ply" id="mesh-Circle_004" name="mesh-Circle_004">
 		<string name="filename" value="meshes/Circle_004.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__48" name="elm__48">
+	<shape type="ply" id="mesh-Circle_003" name="mesh-Circle_003">
 		<string name="filename" value="meshes/Circle_003.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__49" name="elm__49">
+	<shape type="ply" id="mesh-Circle_002" name="mesh-Circle_002">
 		<string name="filename" value="meshes/Circle_002.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__50" name="elm__50">
+	<shape type="ply" id="mesh-Circle_001" name="mesh-Circle_001">
 		<string name="filename" value="meshes/Circle_001.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__51" name="elm__51">
+	<shape type="ply" id="mesh-Circle_000" name="mesh-Circle_000">
 		<string name="filename" value="meshes/Circle_000.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__52" name="elm__52">
+	<shape type="ply" id="mesh-Circle_019" name="mesh-Circle_019">
 		<string name="filename" value="meshes/Circle_019.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__53" name="elm__53">
+	<shape type="ply" id="mesh-Circle_018" name="mesh-Circle_018">
 		<string name="filename" value="meshes/Circle_018.ply"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__55" name="elm__55">
-		<string name="filename" value="meshes/Cube_005-itu_glass.ply"/>
-		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__56" name="elm__56">
-		<string name="filename" value="meshes/Cube_005-itu_metal.ply"/>
-		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_metal" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__57" name="elm__57">
-		<string name="filename" value="meshes/Cube_006.ply"/>
-		<boolean name="face_normals" value="true"/>
-		<ref id="mat-itu_glass" name="bsdf"/>
-	</shape>
-	<shape type="ply" id="elm__59" name="elm__59">
+	<shape type="ply" id="mesh-Circle_046" name="mesh-Circle_046">
 		<string name="filename" value="meshes/Circle_046.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__60" name="elm__60">
+	<shape type="ply" id="mesh-Circle" name="mesh-Circle">
 		<string name="filename" value="meshes/Circle.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__61" name="elm__61">
+	<shape type="ply" id="mesh-Cube_011" name="mesh-Cube_011">
 		<string name="filename" value="meshes/Cube_011.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__62" name="elm__62">
+	<shape type="ply" id="mesh-Cube_013" name="mesh-Cube_013">
 		<string name="filename" value="meshes/Cube_013.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__63" name="elm__63">
+	<shape type="ply" id="mesh-Cube_034" name="mesh-Cube_034">
 		<string name="filename" value="meshes/Cube_034.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__64" name="elm__64">
+	<shape type="ply" id="mesh-Cube_031" name="mesh-Cube_031">
 		<string name="filename" value="meshes/Cube_031.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__65" name="elm__65">
+	<shape type="ply" id="mesh-Cube_030" name="mesh-Cube_030">
 		<string name="filename" value="meshes/Cube_030.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__66" name="elm__66">
+	<shape type="ply" id="mesh-Cube_027" name="mesh-Cube_027">
 		<string name="filename" value="meshes/Cube_027.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__67" name="elm__67">
+	<shape type="ply" id="mesh-Cube_026" name="mesh-Cube_026">
 		<string name="filename" value="meshes/Cube_026.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__68" name="elm__68">
+	<shape type="ply" id="mesh-Cube_023" name="mesh-Cube_023">
 		<string name="filename" value="meshes/Cube_023.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__69" name="elm__69">
+	<shape type="ply" id="mesh-Cube_022" name="mesh-Cube_022">
 		<string name="filename" value="meshes/Cube_022.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__70" name="elm__70">
+	<shape type="ply" id="mesh-Cube_019" name="mesh-Cube_019">
 		<string name="filename" value="meshes/Cube_019.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__71" name="elm__71">
+	<shape type="ply" id="mesh-Cube_012" name="mesh-Cube_012">
 		<string name="filename" value="meshes/Cube_012.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__72" name="elm__72">
+	<shape type="ply" id="mesh-Cube_007" name="mesh-Cube_007">
 		<string name="filename" value="meshes/Cube_007.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__73" name="elm__73">
+	<shape type="ply" id="mesh-Cube_008" name="mesh-Cube_008">
 		<string name="filename" value="meshes/Cube_008.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__74" name="elm__74">
+	<shape type="ply" id="mesh-Cube_010" name="mesh-Cube_010">
 		<string name="filename" value="meshes/Cube_010.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__75" name="elm__75">
+	<shape type="ply" id="mesh-Cube_009" name="mesh-Cube_009">
 		<string name="filename" value="meshes/Cube_009.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_metal" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__76" name="elm__76">
+	<shape type="ply" id="mesh-Cube_036" name="mesh-Cube_036">
 		<string name="filename" value="meshes/Cube_036.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
 	</shape>
-	<shape type="ply" id="elm__77" name="elm__77">
+	<shape type="ply" id="mesh-Cube_035" name="mesh-Cube_035">
 		<string name="filename" value="meshes/Cube_035.ply"/>
 		<boolean name="face_normals" value="true"/>
 		<ref id="mat-itu_wood" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-P2" name="mesh-P2">
+		<string name="filename" value="meshes/P2.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_plasterboard" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-P1" name="mesh-P1">
+		<string name="filename" value="meshes/P1.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_plasterboard" name="bsdf"/>
 	</shape>
 
 <!-- Volumes -->

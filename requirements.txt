@@ -1,4 +1,0 @@
-sionna
-numpy
-matplotlib
-cupy-cuda11x

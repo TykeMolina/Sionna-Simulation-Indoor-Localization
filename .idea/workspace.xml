@@ -4,87 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+    <list default="true" id="76929580-b119-41f9-aca0-94f2f4428b21" name="Changes" comment="new changes">
+      <change afterPath="$PROJECT_DIR$/Lectura_datos.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_DrJit_CUDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyecto_8avo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.polyscope.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.polyscope.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntennaMIMO.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/AntennaMIMO.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntennaMIMO.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests_main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tests_main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_000.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_000.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_001.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_001.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_002.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_002.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_003.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_003.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_004.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_004.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_005.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_005.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_006.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_006.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_007.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_007.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_008.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_008.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_009.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_009.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_010.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_010.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_011.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_011.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_012.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_012.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_013.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_013.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_014.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_014.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_015.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_015.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_016.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_016.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_017.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_017.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_018.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_018.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_019.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_019.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_020.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_020.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_021.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_021.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_022.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_022.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_023.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_023.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_024.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_024.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_025.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_025.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_026.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_026.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_027.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_027.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_028.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_028.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_029.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_029.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_030.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_030.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_031.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_031.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_032.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_032.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_033.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_033.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_034.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_034.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_035.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_035.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_036.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_036.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_037.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_037.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_038.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_038.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_039.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_039.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_040.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_040.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_041.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_041.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_042.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_042.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_043.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_043.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_044.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_044.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_045.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_045.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Circle_046.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Circle_046.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_001.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_001.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_002.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_002.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_003.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_003.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_005-itu_glass.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_005-itu_metal.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_006.ply" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_007.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_007.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_008.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_008.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_009.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_009.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_010.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_010.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_011.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_011.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_012.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_012.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_013.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_013.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_019.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_019.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_022.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_022.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_023.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_023.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_026.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_026.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_027.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_027.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_030.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_030.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_031.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_031.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_034.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_034.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_035.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_035.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/meshes/Cube_036.ply" beforeDir="false" afterPath="$PROJECT_DIR$/room/meshes/Cube_036.ply" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/room/room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/room/room.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,30 +49,36 @@
     &quot;Python.Beamforming_3D.executor&quot;: &quot;Run&quot;,
     &quot;Python.Bewrqwr.executor&quot;: &quot;Run&quot;,
     &quot;Python.Simulator_ULA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_CUDA_Torch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test_DrJit_CUDA.executor&quot;: &quot;Run&quot;,
     &quot;Python.Test_GPU.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_GPU.executor&quot;: &quot;Run&quot;,
     &quot;Python.config.executor&quot;: &quot;Run&quot;,
     &quot;Python.gpu_3d_plot_numba_optimized.executor&quot;: &quot;Run&quot;,
     &quot;Python.gpu_3d_plot_windows_fix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_CUDA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_backend.executor&quot;: &quot;Run&quot;,
     &quot;Python.try.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/danmo/PycharmProjects/Proyecto_8avo/files3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danmo/PycharmProjects/Proyecto_8avo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo\files3" />
       <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo" />
+      <recent name="C:\Users\danmo\PycharmProjects\Proyecto_8avo\files3" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -167,7 +100,17 @@
       <workItem from="1780036210203" duration="8537000" />
       <workItem from="1780048762423" duration="178000" />
       <workItem from="1780076826195" duration="2555000" />
-      <workItem from="1780102940332" duration="376000" />
+      <workItem from="1780102940332" duration="8368000" />
+      <workItem from="1780122855645" duration="1005000" />
+      <workItem from="1780254315700" duration="2116000" />
+      <workItem from="1780257379760" duration="2866000" />
+      <workItem from="1780260440926" duration="154000" />
+      <workItem from="1780262327507" duration="3929000" />
+      <workItem from="1780266946461" duration="57000" />
+      <workItem from="1780267170074" duration="608000" />
+      <workItem from="1780269532925" duration="3688000" />
+      <workItem from="1780274015031" duration="78000" />
+      <workItem from="1780443608761" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="Avances 1.5">
       <option name="closed" value="true" />
@@ -225,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779697932779</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1780103337825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780103337825</updated>
+    </task>
+    <task id="LOCAL-00009" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1780267770333</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1780267770333</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +194,16 @@
     <MESSAGE value="Avances 1.5" />
     <MESSAGE value="Avances 2.0" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$Test_CUDA_Torch.coverage" NAME="Test_CUDA_Torch Coverage Results" MODIFIED="1780264311827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$Test_DrJit_CUDA.coverage" NAME="Test_DrJit_CUDA Coverage Results" MODIFIED="1780272856049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$check_GPU.coverage" NAME="check_GPU Coverage Results" MODIFIED="1780122199461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$try.coverage" NAME="try Coverage Results" MODIFIED="1780263079963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$main.coverage" NAME="main Coverage Results" MODIFIED="1780258552459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$test_CUDA.coverage" NAME="test_CUDA Coverage Results" MODIFIED="1780255294250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Proyecto_8avo$Simulator_ULA.coverage" NAME="Simulator_ULA Coverage Results" MODIFIED="1780103294270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
